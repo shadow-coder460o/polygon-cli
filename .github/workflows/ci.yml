@@ -38,7 +38,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v5
-      - uses: crate-ci/typos@a4c3e43aea0a9e9b9e6578d2731ebd9a27e8f6cd # v1.35.5
+      - uses: crate-ci/typos@7436548694def3314aacd93ed06c721b1f91ea04 # v1.37.2
 
   gen-doc:
     name: Check gen-doc generated files
